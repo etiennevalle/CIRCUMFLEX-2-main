@@ -1,0 +1,38 @@
+.grid-layout {
+	display: grid;
+	grid-template-columns: auto auto auto 40%  auto auto auto auto;
+	grid-template-rows: 80px 50px;
+	background-color: #FFF9F4;
+	text-decoration: none;
+	list-style: none;
+	a {
+		color: #3c3a3a;
+		font-weight: 600;
+		font-size: small;
+		font-weight: 100;
+	}
+}
+.caja {
+	background-color: #FFF9F4;
+	text-align: center;
+	line-height: 80px;
+}
+.c4 {
+	margin-left: 30%;
+	margin-top: 1%;
+	img {
+		width: 100px;
+		height: 30px;
+	}
+}
+.c10 {
+	background-color: #3E230E;
+	grid-column: 1/ span 9;
+	p {
+		color: white;
+		text-align: center;
+		line-height: 50px;
+		font-weight: 100;
+		font-size: small;
+	}
+}

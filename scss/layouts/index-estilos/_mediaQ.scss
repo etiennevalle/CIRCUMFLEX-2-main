@@ -1,0 +1,221 @@
+@media screen and (max-width: 1000px) {
+    .grid-layout{
+        display: grid;
+        grid-template-columns: 25% 25% 25% 25%;
+        grid-template-rows: auto auto 20%;
+    }
+    .c1{
+        grid-row: 2;
+    }
+    .c2{
+        grid-row: 2;
+    }
+    .c3{
+        grid-row: 2;
+    }
+    .c4{
+        grid-row: 1;
+        grid-column: 1/span 3;
+    img{
+        text-align: center;
+    }
+    }
+    .c5{
+        display: none;
+    }
+    .c6{
+        display: none;
+    }
+    .c7{
+        display: none;
+    }
+    .c8{
+        display: none;
+    }
+    .c9{
+        grid-row: 2;
+    }
+    .grid-shop{
+        display: grid;
+        grid-template-columns: auto auto;
+        background-color: #FFF9F4;
+        justify-content: center;
+        align-items: center;
+        margin: 20px;
+        gap: 20px;
+    }
+    .grid-categorias{
+        display: grid;
+        grid-template-columns: auto auto;
+        background-color: #FFF9F4;
+        justify-content: center;
+        align-items: center;
+        margin: 20px;
+    }
+
+    #allproducts{
+        grid-column: 1/span 2;
+        width: 100%;
+    }
+    .grid-carrusel{
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+    
+    .caja-logofrase{
+        display: grid;
+        grid-template-columns: auto auto auto;
+        width: 100%;
+        gap: 20px;
+    img{
+        width: 100%;
+        height: 100%;
+    }
+    }
+    .grid-informacion{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        border: 1px solid #9B9B9B;
+        margin-top: 5%;
+    img{
+        width: 100px;
+        height: 100%x;
+        max-width: 90%;
+        padding: 30px;
+        padding-bottom: 10px;
+        }
+    }
+    .legal-info{
+        display: flex;
+        flex-direction: column;
+    }
+    .legal{
+    h5{
+    text-align: center;
+    }
+    li{
+    text-align: center;
+    }
+    p{
+    text-align: center;
+    }
+    }
+    .grid-categorias{
+        grid-template-columns: auto;
+    }
+    .hover p{
+        font-size: xx-large;
+    }
+}
+    @media screen and (max-width: 768px) {
+        .grid-layout{
+            display: grid;
+            grid-template-columns: 25% 25% 25% 25%;
+            grid-template-rows: auto auto 20%;
+        }
+        .c1{
+            grid-row: 2;
+        }
+        .c2{
+            grid-row: 2;
+        }
+        .c3{
+            grid-row: 2;
+        }
+        .c4{
+            grid-row: 1;
+            grid-column: 1/span 3;
+        }
+        .c5{
+            display: none;
+        }
+        .c6{
+            display: none;
+        }
+        .c7{
+            display: none;
+        }
+        .c8{
+            display: none;
+        }
+        .c9{
+            grid-row: 2;
+        }
+        .grid-shop{
+            display: grid;
+            grid-template-columns: auto auto;
+            background-color: #FFF9F4;
+            justify-content: center;
+            align-items: center;
+            margin: 20px;
+            gap: 20px;
+        }
+        .grid-categorias{
+            display: grid;
+            grid-template-columns: auto auto;
+            background-color: #FFF9F4;
+            justify-content: center;
+            align-items: center;
+            margin: 20px;
+        }
+
+        #allproducts{
+            grid-column: 1/span 2;
+            width: 100%;
+        }
+        .grid-carrusel{
+            display: grid;
+            grid-template-columns: auto auto;
+        }
+        
+        .caja-logofrase{
+            display: grid;
+            grid-template-columns: auto auto auto;
+            width: 100%;
+            gap: 20px;
+        img{
+            width: 100%;
+            height: 100%;
+        }
+    }
+        .grid-informacion{
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            border: 1px solid #9B9B9B;
+            margin-top: 5%;
+        img{
+            width: 100px;
+            height: 100%x;
+            max-width: 90%;
+            padding: 30px;
+            padding-bottom: 10px;
+        }
+    }
+        .legal-info{
+            display: flex;
+            flex-direction: column;
+        }
+        .legal {
+        h5{
+        text-align: center;
+        }
+        li{
+        text-align: center;
+        }
+        p{
+        text-align: center;
+        }
+    }
+        .grid-about p{
+            font-size: small;
+            text-align: center;
+        }
+        .grid-categorias{
+            grid-template-columns: auto;
+        }
+        .hover p{
+            font-size:x-large;
+        }
+}
